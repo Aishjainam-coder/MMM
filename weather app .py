@@ -1,5 +1,7 @@
 from tkinter import *
 from tkinter import ttk
+import os
+
 
 win = Tk()
 
@@ -47,12 +49,20 @@ list_name = [
     "National Capital Territory of Delhi",
     "Puducherry",
 ]
+Logo_image = PhotoImage(
+    file="C:/Users/hi/OneDrive/Documents/dice roller/MMM/img/logo.png"
+)
 
+logo = Label(image=Logo_image)
+logo.place(x=150, y=100)
 
 com = ttk.Combobox(
     win, text="MAUSAM DEKHO APP", values=list_name, font=("Times New Roman", 30, "bold")
 )
 com.place(x=25, y=120, height=50, width=450)
+
+done_button = Button(win, text="DONE", font=("Times New Roman", 15, "bold"))
+done_button.place(x=200, y=190, height=50, width=100)
 
 
 win.mainloop()
