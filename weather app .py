@@ -52,7 +52,7 @@ list_name = [
 com = ttk.Combobox(
     win, text="MAUSAM DEKHO APP", values=list_name, font=("Times New Roman", 30, "bold")
 )
-com.place(x=25, y=50, height=50, width=450)
+com.place(x=25, y=120, height=50, width=450)
 
 
 win.mainloop()
