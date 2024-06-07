@@ -49,18 +49,12 @@ list_name = [
     "National Capital Territory of Delhi",
     "Puducherry",
 ]
-image_path = "C:/Users/hi/OneDrive/Documents/dice roller/MMM/logo.png"
 
-# Load the logo image
-if os.path.isfile(image_path):
-    try:
-        Logo_image = PhotoImage(file=image_path)
-        logo = Label(win, image=Logo_image)
-        logo.place(x=150, y=100)
-    except Exception as e:
-        print(f"Error loading image: {e}")
-else:
-    print(f"File not found: {image_path}")
+
+Logo_image = PhotoImage(file=os.path.join(r"C:\Users\hi\Downloads\hey", "real.png.png"))
+logo = Label(win, image=Logo_image)
+logo.place(x=85, y=250)
+
 com = ttk.Combobox(
     win, text="MAUSAM DEKHO APP", values=list_name, font=("Times New Roman", 30, "bold")
 )
