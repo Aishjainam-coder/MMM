@@ -1,4 +1,3 @@
-Sure! Here is a concise README file for your weather app:
 
 ---
 
