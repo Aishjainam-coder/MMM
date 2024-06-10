@@ -39,4 +39,5 @@ Mausam Dekho App is a simple weather application built with Python and Tkinter t
 2. Select a city from the dropdown and click "DONE" to fetch the weather information.
 
 ---
+![image](https://github.com/Aishjainam-coder/Weather-App-python/assets/86430623/15754b6e-065c-41d3-9bcb-588f3afd441b)
 
